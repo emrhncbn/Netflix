@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url(https://www.turkmmo.com/wp-content/uploads/2021/11/netflix-dizileri.jpg);
+color:white
+}
+
+#netflix{
+    /* display: block;
+    font-weight: bold; */
+    text-align: center;
+    font-family: "Bowlby One SC", cursive;
+    font-size: 50px;
+    letter-spacing: 7px;
+    padding-top: 10px;
+}
+
+
+
+#general{
+    background-color: rgba(0,0,0,0.5);
+    margin:30px 100px;
+  }
+   
+
+span{
+    color: red;
+    
+
+}
+#netflix2{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 22px;
+    text-align: center;
+    
+   
+}
+
+
+#black{
+    background-color: rgba(0,0,0,0.9);
+    display: block;
+    width:500px;
+    margin: auto;
+}
+
+#submit{
+    color: white;
+    background-color:rgb(224, 8, 8);
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    margin: 5px 0 10px 0;
+    width:160px;
+    height: 45px;
+    
+}
+
+.button{
+    text-align: center;
+    
+}
+
+#submit:hover{
+    background-color: white;
+    color:rgb(224, 8, 8);
+    cursor: pointer;
+    border-radius: 50px;
+}
+.name,.age,.mail,.content{
+    margin-top: 14px;
+    margin-left: 40px;
+    padding-top: 10px;
+    
+}
+
+.name input,.age input,.mail input{
+    width: 400px;
+    height: 30px;
+    margin-top: 12px;
+
+}
+
+
+.content select{
+    width: 420px;
+    height: 50px;
+    margin-top: 12px;
+}
+
+
+.movie,.gender,.feedback{
+    margin-top: 14px;
+    margin-left: 40px;
+
+}

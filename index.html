@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="general">
+    <header>
+            <h1 id="netflix">NET<span>FLIX</span></h1>
+        </header>
+        <h2 id="netflix2">Netflix'e kaydolduğunuz için teşekkür ederiz. Bize kendiniz hakkında daha fazla bilgi verin.</h2>
+    <div id="black">
+        <div class="name">
+            <form action="q">
+            <label for="name">İsim</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Adınızı giriniz" required>
+            <br>
+        </div>
+        <div class="age">
+            <label for="age">Yaş</label>
+            <br>
+            <input type="number" id="age" name="number" placeholder="Yaş" min="18" max="99" required>
+            <br>
+        </div>
+        <div class="mail">
+            <label for="email">E-posta</label>
+            <br>
+            <input type="text" id="email" name="email" placeholder="örnek@netflix.com">
+            <br>
+        </div>
+        <div class="content">
+            <label for="content">İçerik Türü</label>
+            <br>
+            <select name="content" id="content">
+                <option value="empty"></option>
+                <option value="film">Film</option>
+                <option value="serial">Seri</option>
+            </select>
+            <br>
+        </div>
+        <div class="movie">
+            <label>Film Türü</label>
+            <br>
+            <label for="check"></label>
+            <input type="checkbox" id="check" name="movie">Komedi</input>
+            <br>
+            <label for="second check"></label>
+            <input type="checkbox" id="second check" name="movie2">Aksiyon</input>
+            <br>
+            <label for="third check"></label>
+            <input type="checkbox" id="third check" name="movie3">Romantik</input>
+            <br>
+        </div>
+        <div class="gender">
+            <label>Cinsiyet</label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label>Erkek</label>
+            <br>
+            <input type="radio" name="gender" id="female">
+            <label>Dişi</label>
+            <br>
+            <input type="radio" name="gender" id="other">
+            <label>Diğer</label>
+            <br>
+        </div>
+        <div class="feedback">
+            <label>Geri Bilidirim</label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="57" rows="7" placeholder="Yorumunuzu Girin"></textarea>
+            <br>
+        </div>
+        <div class="button">
+            <input type="submit" value="Göndermek" id="submit">
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
